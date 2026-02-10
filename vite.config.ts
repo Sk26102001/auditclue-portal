@@ -46,6 +46,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
 
-  // 👇 IMPORTANT PART
-  base: mode === "production" ? "/auditclue-portal/" : "/",
+
 }));
